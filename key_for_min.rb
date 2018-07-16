@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   smallestn = ""
   smallestv = 10000000
-  name_hash.collect 
+  name_hash.collect
   name_hash.each do |key, value|
     if value <= smallestv
       smallestv = value
